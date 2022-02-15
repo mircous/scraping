@@ -7,10 +7,10 @@ import matplotlib.pyplot as plt
 
 #This directory is where you will save attachments
 detach_dir = "F:\OTHERS\CS\PYTHONPROJECTS"
-#Enter your GMail username -->
-user = raw_input("gmircous@gmail.com")
-#Enter your password -->
-pwd = getpass.getpass("Pinkrato3")
+#
+user = raw_input("Enter your GMail username -->")
+#
+pwd = getpass.getpass("Enter your password -->")
 
 m = imaplib.IMAP4_SSL("imap.gmail.com")
 m.login(user, pwd)
